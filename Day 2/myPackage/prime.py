@@ -1,4 +1,4 @@
-def getPrime():
+def Prime():
     lower = int(input("Enter start range: "))
     upper = int(input("Enter end range: "))
     num = [] 
@@ -10,4 +10,4 @@ def getPrime():
                     break
             else:
                 print(num, end=' ')
-getPrime()      
+Prime()      
